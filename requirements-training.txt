@@ -1,0 +1,4 @@
+-r requirements.txt
+pyarrow>=17,<24
+pycocotools>=2.0.8,<3
+ijson>=3.3,<4

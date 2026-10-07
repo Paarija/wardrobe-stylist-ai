@@ -1,0 +1,62 @@
+{
+  "protocol": "leave one wardrobe item out of personal colour calibration",
+  "labels": "first colour word in the user-reviewed item name",
+  "selected_threshold": 3,
+  "results": [
+    {
+      "threshold": 1,
+      "correct": 14,
+      "images": 20,
+      "leave_one_item_out_accuracy": 0.7
+    },
+    {
+      "threshold": 2,
+      "correct": 14,
+      "images": 20,
+      "leave_one_item_out_accuracy": 0.7
+    },
+    {
+      "threshold": 3,
+      "correct": 14,
+      "images": 20,
+      "leave_one_item_out_accuracy": 0.7
+    },
+    {
+      "threshold": 4,
+      "correct": 13,
+      "images": 20,
+      "leave_one_item_out_accuracy": 0.65
+    },
+    {
+      "threshold": 5,
+      "correct": 12,
+      "images": 20,
+      "leave_one_item_out_accuracy": 0.6
+    },
+    {
+      "threshold": 6,
+      "correct": 12,
+      "images": 20,
+      "leave_one_item_out_accuracy": 0.6
+    },
+    {
+      "threshold": 8,
+      "correct": 10,
+      "images": 20,
+      "leave_one_item_out_accuracy": 0.5
+    },
+    {
+      "threshold": 10,
+      "correct": 9,
+      "images": 20,
+      "leave_one_item_out_accuracy": 0.45
+    },
+    {
+      "threshold": 12,
+      "correct": 9,
+      "images": 20,
+      "leave_one_item_out_accuracy": 0.45
+    }
+  ],
+  "limitations": "Small personal calibration set; this is not a public benchmark."
+}

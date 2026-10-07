@@ -1,0 +1,680 @@
+{
+  "source": "Fashionpedia official validation split; single-garment instance crops from natural photos",
+  "seed": 51,
+  "per_class": 40,
+  "image_count": 160,
+  "image_ids": [
+    9468,
+    12831,
+    11451,
+    10912,
+    19157,
+    19794,
+    18606,
+    17163,
+    9266,
+    17091,
+    11303,
+    15300,
+    17737,
+    15738,
+    11127,
+    19436,
+    9721,
+    19656,
+    20506,
+    13469,
+    12651,
+    10959,
+    13326,
+    9347,
+    18758,
+    10716,
+    13483,
+    8081,
+    18033,
+    17997,
+    17229,
+    10811,
+    19701,
+    15813,
+    12873,
+    10000,
+    15769,
+    18638,
+    10471,
+    11393,
+    15800,
+    19700,
+    16431,
+    16186,
+    12486,
+    9636,
+    18165,
+    9891,
+    16497,
+    16648,
+    12112,
+    11095,
+    18250,
+    9541,
+    18369,
+    17775,
+    13257,
+    9048,
+    10994,
+    10848,
+    15920,
+    10424,
+    10566,
+    18374,
+    10905,
+    9549,
+    20106,
+    11630,
+    10667,
+    20458,
+    19288,
+    20531,
+    23348,
+    13106,
+    15291,
+    12073,
+    19771,
+    18718,
+    18975,
+    11091,
+    16774,
+    13477,
+    9136,
+    9236,
+    20214,
+    9601,
+    13331,
+    12084,
+    16148,
+    17183,
+    16110,
+    12565,
+    11097,
+    17378,
+    11122,
+    18509,
+    20065,
+    16219,
+    15108,
+    10820,
+    13598,
+    17515,
+    9274,
+    9507,
+    12758,
+    9658,
+    11720,
+    15474,
+    16160,
+    15461,
+    10904,
+    10160,
+    13045,
+    15553,
+    9154,
+    11419,
+    13584,
+    19391,
+    17910,
+    19944,
+    15699,
+    19973,
+    9246,
+    17329,
+    17408,
+    13124,
+    15998,
+    12913,
+    18044,
+    15380,
+    19811,
+    16034,
+    17048,
+    13043,
+    16062,
+    8519,
+    12227,
+    15901,
+    11508,
+    15823,
+    19471,
+    17662,
+    16848,
+    15860,
+    12931,
+    14102,
+    19450,
+    19551,
+    11800,
+    17811,
+    11918,
+    17714,
+    11593,
+    9336,
+    18443,
+    18557,
+    20572,
+    11135,
+    19229,
+    15161
+  ],
+  "annotation_ids": [
+    5699,
+    8612,
+    7514,
+    7017,
+    3687,
+    4370,
+    3175,
+    1767,
+    5560,
+    3044,
+    7370,
+    224,
+    2255,
+    1711,
+    7228,
+    4016,
+    6001,
+    4187,
+    5036,
+    9147,
+    8464,
+    7070,
+    8954,
+    5603,
+    3327,
+    6795,
+    9184,
+    7093,
+    2498,
+    2464,
+    1838,
+    6886,
+    4259,
+    1608,
+    6775,
+    6216,
+    614,
+    5200,
+    6473,
+    7458,
+    653,
+    4252,
+    1136,
+    3035,
+    8337,
+    5877,
+    2615,
+    6146,
+    1180,
+    1340,
+    8038,
+    7154,
+    2694,
+    5781,
+    2781,
+    2310,
+    8895,
+    5340,
+    7121,
+    6914,
+    840,
+    6461,
+    6539,
+    3999,
+    6996,
+    5786,
+    4653,
+    7629,
+    6744,
+    4941,
+    3806,
+    5060,
+    3801,
+    8807,
+    219,
+    7925,
+    4314,
+    3288,
+    3498,
+    7637,
+    1488,
+    9168,
+    6586,
+    5538,
+    4728,
+    5851,
+    8960,
+    8024,
+    999,
+    1783,
+    975,
+    8423,
+    7161,
+    1948,
+    7208,
+    3087,
+    4616,
+    2876,
+    89,
+    6895,
+    9309,
+    2064,
+    5586,
+    5723,
+    8537,
+    5911,
+    7680,
+    341,
+    1009,
+    332,
+    6989,
+    6293,
+    8759,
+    439,
+    5467,
+    7466,
+    9289,
+    3872,
+    2409,
+    4531,
+    541,
+    4545,
+    5544,
+    1931,
+    1980,
+    8820,
+    890,
+    8681,
+    2532,
+    284,
+    4400,
+    945,
+    1652,
+    8753,
+    935,
+    6033,
+    8116,
+    824,
+    7540,
+    667,
+    3938,
+    2213,
+    2945,
+    693,
+    8699,
+    737,
+    3924,
+    4111,
+    7748,
+    2329,
+    9096,
+    2238,
+    7602,
+    5599,
+    3002,
+    3131,
+    5100,
+    7241,
+    3773,
+    110
+  ],
+  "notes": [
+    "These are annotated fashion photos, not the user's own clothing photos.",
+    "Context crops can show other garments; isolated crops use the Fashionpedia instance mask and a white background."
+  ],
+  "classifier_sha256": "081454b38eb8dc978afd7bf7d236bf1c7f860259c4ba07774c38af6bec3b9849",
+  "labels": [
+    "top",
+    "bottom",
+    "shoes",
+    "dress"
+  ],
+  "results": {
+    "context_crop": {
+      "correct": 86,
+      "total": 160,
+      "accuracy": 0.5375,
+      "accuracy_95pct_wilson_interval": [
+        0.4603,
+        0.613
+      ],
+      "balanced_accuracy_present_classes": 0.5375,
+      "macro_f1_present_classes": 0.5262,
+      "uniform_random_expected_accuracy": 0.25,
+      "majority_class_accuracy": 0.25,
+      "support": {
+        "top": 40,
+        "bottom": 40,
+        "shoes": 40,
+        "dress": 40
+      },
+      "precision_by_class": {
+        "top": 0.6522,
+        "bottom": 0.4545,
+        "shoes": 1.0,
+        "dress": 0.4783
+      },
+      "recall_by_class": {
+        "top": 0.375,
+        "bottom": 0.875,
+        "shoes": 0.35,
+        "dress": 0.55
+      },
+      "f1_by_class": {
+        "top": 0.4762,
+        "bottom": 0.5983,
+        "shoes": 0.5185,
+        "dress": 0.5117
+      },
+      "confusion_actual_rows_predicted_columns": {
+        "top": {
+          "top": 15,
+          "bottom": 7,
+          "shoes": 0,
+          "dress": 18
+        },
+        "bottom": {
+          "top": 1,
+          "bottom": 35,
+          "shoes": 0,
+          "dress": 4
+        },
+        "shoes": {
+          "top": 2,
+          "bottom": 22,
+          "shoes": 14,
+          "dress": 2
+        },
+        "dress": {
+          "top": 5,
+          "bottom": 13,
+          "shoes": 0,
+          "dress": 22
+        }
+      },
+      "calibration": {
+        "expected_calibration_error": 0.2508,
+        "multiclass_brier_score": 0.6655,
+        "bins": [
+          {
+            "range": [
+              0.2,
+              0.4
+            ],
+            "count": 2,
+            "accuracy": 0.0,
+            "mean_confidence": 0.3461
+          },
+          {
+            "range": [
+              0.4,
+              0.6
+            ],
+            "count": 28,
+            "accuracy": 0.3571,
+            "mean_confidence": 0.5128
+          },
+          {
+            "range": [
+              0.6,
+              0.8
+            ],
+            "count": 46,
+            "accuracy": 0.413,
+            "mean_confidence": 0.7007
+          },
+          {
+            "range": [
+              0.8,
+              1.0
+            ],
+            "count": 84,
+            "accuracy": 0.6786,
+            "mean_confidence": 0.9387
+          }
+        ]
+      },
+      "inference_milliseconds_per_image": 27.514,
+      "highest_confidence_mistakes": [
+        {
+          "example_index": 87,
+          "actual": "shoes",
+          "predicted": "bottom",
+          "confidence": 0.9998
+        },
+        {
+          "example_index": 88,
+          "actual": "shoes",
+          "predicted": "bottom",
+          "confidence": 0.9988
+        },
+        {
+          "example_index": 140,
+          "actual": "dress",
+          "predicted": "bottom",
+          "confidence": 0.9965
+        },
+        {
+          "example_index": 100,
+          "actual": "shoes",
+          "predicted": "bottom",
+          "confidence": 0.9912
+        },
+        {
+          "example_index": 31,
+          "actual": "top",
+          "predicted": "bottom",
+          "confidence": 0.9838
+        },
+        {
+          "example_index": 123,
+          "actual": "dress",
+          "predicted": "bottom",
+          "confidence": 0.9548
+        },
+        {
+          "example_index": 95,
+          "actual": "shoes",
+          "predicted": "bottom",
+          "confidence": 0.9429
+        },
+        {
+          "example_index": 58,
+          "actual": "bottom",
+          "predicted": "top",
+          "confidence": 0.9406
+        },
+        {
+          "example_index": 97,
+          "actual": "shoes",
+          "predicted": "bottom",
+          "confidence": 0.9381
+        },
+        {
+          "example_index": 155,
+          "actual": "dress",
+          "predicted": "bottom",
+          "confidence": 0.9311
+        }
+      ]
+    },
+    "isolated_crop": {
+      "correct": 85,
+      "total": 160,
+      "accuracy": 0.5312,
+      "accuracy_95pct_wilson_interval": [
+        0.4541,
+        0.6069
+      ],
+      "balanced_accuracy_present_classes": 0.5312,
+      "macro_f1_present_classes": 0.5118,
+      "uniform_random_expected_accuracy": 0.25,
+      "majority_class_accuracy": 0.25,
+      "support": {
+        "top": 40,
+        "bottom": 40,
+        "shoes": 40,
+        "dress": 40
+      },
+      "precision_by_class": {
+        "top": 0.3684,
+        "bottom": 0.4205,
+        "shoes": 0.8261,
+        "dress": 0.7333
+      },
+      "recall_by_class": {
+        "top": 0.175,
+        "bottom": 0.925,
+        "shoes": 0.475,
+        "dress": 0.55
+      },
+      "f1_by_class": {
+        "top": 0.2373,
+        "bottom": 0.5782,
+        "shoes": 0.6032,
+        "dress": 0.6286
+      },
+      "confusion_actual_rows_predicted_columns": {
+        "top": {
+          "top": 7,
+          "bottom": 22,
+          "shoes": 3,
+          "dress": 8
+        },
+        "bottom": {
+          "top": 2,
+          "bottom": 37,
+          "shoes": 1,
+          "dress": 0
+        },
+        "shoes": {
+          "top": 3,
+          "bottom": 18,
+          "shoes": 19,
+          "dress": 0
+        },
+        "dress": {
+          "top": 7,
+          "bottom": 11,
+          "shoes": 0,
+          "dress": 22
+        }
+      },
+      "calibration": {
+        "expected_calibration_error": 0.2655,
+        "multiclass_brier_score": 0.7619,
+        "bins": [
+          {
+            "range": [
+              0.2,
+              0.4
+            ],
+            "count": 5,
+            "accuracy": 0.4,
+            "mean_confidence": 0.3753
+          },
+          {
+            "range": [
+              0.4,
+              0.6
+            ],
+            "count": 34,
+            "accuracy": 0.4706,
+            "mean_confidence": 0.5037
+          },
+          {
+            "range": [
+              0.6,
+              0.8
+            ],
+            "count": 30,
+            "accuracy": 0.5,
+            "mean_confidence": 0.7225
+          },
+          {
+            "range": [
+              0.8,
+              1.0
+            ],
+            "count": 91,
+            "accuracy": 0.5714,
+            "mean_confidence": 0.9512
+          }
+        ]
+      },
+      "inference_milliseconds_per_image": 15.774,
+      "highest_confidence_mistakes": [
+        {
+          "example_index": 30,
+          "actual": "top",
+          "predicted": "shoes",
+          "confidence": 0.9998
+        },
+        {
+          "example_index": 92,
+          "actual": "shoes",
+          "predicted": "bottom",
+          "confidence": 0.9979
+        },
+        {
+          "example_index": 12,
+          "actual": "top",
+          "predicted": "bottom",
+          "confidence": 0.9978
+        },
+        {
+          "example_index": 81,
+          "actual": "shoes",
+          "predicted": "bottom",
+          "confidence": 0.9975
+        },
+        {
+          "example_index": 2,
+          "actual": "top",
+          "predicted": "bottom",
+          "confidence": 0.9969
+        },
+        {
+          "example_index": 31,
+          "actual": "top",
+          "predicted": "bottom",
+          "confidence": 0.9962
+        },
+        {
+          "example_index": 87,
+          "actual": "shoes",
+          "predicted": "bottom",
+          "confidence": 0.9922
+        },
+        {
+          "example_index": 5,
+          "actual": "top",
+          "predicted": "bottom",
+          "confidence": 0.9916
+        },
+        {
+          "example_index": 27,
+          "actual": "top",
+          "predicted": "bottom",
+          "confidence": 0.99
+        },
+        {
+          "example_index": 93,
+          "actual": "shoes",
+          "predicted": "bottom",
+          "confidence": 0.989
+        }
+      ]
+    }
+  },
+  "caveat": "This is an evaluation of the frozen classifier; these images were not used to fit it or stop its training."
+}

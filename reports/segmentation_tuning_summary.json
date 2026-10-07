@@ -1,0 +1,54 @@
+{
+  "chosen_at_utc": "2026-10-06T19:00:41.734190+00:00",
+  "selection_set": "Fashionpedia validation: the 100 IDs in models/outfit-segformer/unseen_eval.json",
+  "selection_metric": "supported_clothing_miou (top, bottom, shoes, dress)",
+  "selection_scores": {
+    "fine_tuned": 0.581,
+    "base": 0.6079,
+    "low_lr": 0.6063,
+    "mid_lr": 0.5918,
+    "high_res": 0.6051,
+    "no_flip": 0.5962
+  },
+  "trial_hyperparameters": {
+    "low_lr": {
+      "learning_rate": 1e-05,
+      "clothing_weight": 1.0,
+      "size": 256,
+      "flip_probability": 0.5,
+      "epochs": 1
+    },
+    "mid_lr": {
+      "learning_rate": 3e-05,
+      "clothing_weight": 1.5,
+      "size": 256,
+      "flip_probability": 0.5,
+      "epochs": 1
+    },
+    "high_res": {
+      "learning_rate": 1e-05,
+      "clothing_weight": 1.0,
+      "size": 384,
+      "flip_probability": 0.5,
+      "epochs": 1
+    },
+    "no_flip": {
+      "learning_rate": 3e-05,
+      "clothing_weight": 1.0,
+      "size": 256,
+      "flip_probability": 0.0,
+      "epochs": 1
+    }
+  },
+  "previous_fine_tune": {
+    "learning_rate": 5e-05,
+    "clothing_weight": 1.5,
+    "size": 256,
+    "flip_probability": 0.5,
+    "epochs": 2
+  },
+  "selected_name": "base",
+  "selected_checkpoint": "models/atr-segformer",
+  "selected_sha256": "aba74f4d77ca8f45e04b17cb170f4b13f02fa6259ecbf2d6d47743f6df4feec7",
+  "validation_report": "reports/segmentation_tuning_validation.json"
+}

@@ -1,0 +1,5 @@
+{
+  "base": "../atr-segformer",
+  "outerwear": "../fashionpedia-segformer",
+  "threshold": 0.62
+}

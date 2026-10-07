@@ -1,0 +1,4 @@
+image,label,garment_id,capture_session,split,reviewed,source,consent
+photos/session-01-shirt-front.jpg,top,garment-001,session-01,train,true,participant-photo,true
+photos/session-02-jeans-side.jpg,bottom,garment-002,session-02,development,true,participant-photo,true
+photos/session-03-shoes-floor.jpg,shoes,garment-003,session-03,test,true,participant-photo,true

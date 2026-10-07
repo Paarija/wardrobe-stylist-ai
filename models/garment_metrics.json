@@ -1,0 +1,16 @@
+{
+  "validation_accuracy": 0.9307,
+  "per_class_accuracy": {
+    "top": 0.8654,
+    "bottom": 0.9615,
+    "shoes": 1.0,
+    "dress": 0.8913
+  },
+  "train_examples": 806,
+  "validation_examples": 202,
+  "source": "Fashion Product Images (Small), via Transformersx Hugging Face mirror",
+  "backbone": "MobileNetV2 with ImageNet initialization; frozen during head training",
+  "head": "Dense(128) + Dropout(0.25) + four-class softmax",
+  "label_scheme": "all_upper_body_garments_including_outerwear_are_tops",
+  "seed": 42
+}
